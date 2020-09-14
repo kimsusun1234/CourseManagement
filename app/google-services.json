@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1064101339231",
+    "firebase_url": "https://studingmanagement.firebaseio.com",
+    "project_id": "studingmanagement",
+    "storage_bucket": "studingmanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064101339231:android:c7a5dfe6f8f6a53f77fbea",
+        "android_client_info": {
+          "package_name": "com.vilect.asm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064101339231-rrrls3ilpj82qb2820aqcquafaqrl90e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIo91paWOtPcwDdmYeYFTXhaVco485eJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064101339231-rrrls3ilpj82qb2820aqcquafaqrl90e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064101339231:android:86fac47ccd155a6277fbea",
+        "android_client_info": {
+          "package_name": "com.vilect.mob201_asm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064101339231-rrrls3ilpj82qb2820aqcquafaqrl90e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIo91paWOtPcwDdmYeYFTXhaVco485eJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064101339231-rrrls3ilpj82qb2820aqcquafaqrl90e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

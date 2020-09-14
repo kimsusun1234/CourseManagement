@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/colorPrimaryAlpha"
+    android:layout_marginVertical="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:text="Name"
+            android:gravity="top"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/txtMyCourseName"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="Begin: "
+                    android:gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="20/02/2020"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:gravity="center_vertical"
+                    android:id="@+id/txtMyCourseBegin"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="End: "
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:text="20/02/2020"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:gravity="center_vertical"
+                    android:id="@+id/txtMyCourseEnd"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/ic_clear_black_24dp"
+        android:scaleX="0.5"
+        android:scaleY="0.4"
+        android:id="@+id/btnRemove"
+        />
+</LinearLayout>

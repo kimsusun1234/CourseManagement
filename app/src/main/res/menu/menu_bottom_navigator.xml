@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="My Courses"
+        android:id="@+id/itMyCourse"
+        android:icon="@drawable/iconfinder_calendar_5349745"/>
+
+    <item
+        android:title="Courses"
+        android:id="@+id/itCourse"
+        android:icon="@drawable/iconfinder_folder_5355689"/>
+
+    <item
+        android:title="Map"
+        android:id="@+id/itMap"
+        android:icon="@drawable/iconfinder_world_www_web_website_5340283"/>
+
+    <item
+        android:title="Social"
+        android:id="@+id/itSocial"
+        android:icon="@drawable/iconfinder_facebook_fb_face_book_5340250"/>
+
+
+</menu>
